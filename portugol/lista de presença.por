@@ -9,12 +9,14 @@ programa
 		caracter ENTREGA [29], continua
 		inteiro  notas [29]
 		logico masculino [29]= {falso, verdadeiro, verdadeiro, verdadeiro, falso, verdadeiro, verdadeiro, verdadeiro, verdadeiro, verdadeiro, verdadeiro, verdadeiro, verdadeiro, verdadeiro, verdadeiro, falso, falso, verdadeiro, falso, verdadeiro, verdadeiro, falso, falso, falso, verdadeiro, verdadeiro, verdadeiro, falso, verdadeiro}
-
+		inteiro x=0
 		                                                                                                                                                                                                                                                                                      
 		// processo
-		escreva(codigo [0],"\t\t\t\t\t", codigo [1],"\t\t\t\t", codigo [2],"\t\t\t\t\t", codigo [3],"\t\t\t", codigo [4],"\t\t\t\t", codigo [5],"\t\t\t\t\t", codigo [6],"\t\t\t\t", codigo [7],"\t\t\t", codigo [8],"\t\t\t", codigo [9],"\t\t\t\t\t", codigo [10],"\t\t\t", codigo [11],"\t\t\t\t\t", codigo [12],"\t\t\t\t\t", codigo [13],"\t\t\t\t\t", codigo [14],"\t\t\t\t", codigo [15],"\t\t\t\t", codigo [16],"\t\t\t\t", codigo [17],"\t\t\t", codigo [18],"\t\t\t\t", codigo [19],"\t\t\t\t\t", codigo [20],"\t\t\t\t", codigo [21],"\t\t\t\t\t\t", codigo [22],"\t\t\t\t\t", codigo [23],"\t\t\t", codigo [24],"\t\t\t", codigo [25],"\t\t\t\t\t\t", codigo [26],"\t\t\t\t", codigo [27],"\t\t\t\t\t", codigo [28])
-		
-		escreva("\n", nome [0],"\t\t", nome [1],"\t\t", nome [2],"\t\t", nome [3],"\t\t", nome [4],"\t\t", nome [5],"\t\t", nome [6],"\t\t", nome [7],"\t\t", nome [8],"\t\t", nome [9],"\t\t", nome [10],"\t\t", nome [11],"\t\t", nome [12],"\t\t", nome [13],"\t\t", nome [14],"\t\t", nome [15],"\t\t", nome [16],"\t\t", nome [17],"\t\t", nome [18],"\t\t", nome [19],"\t\t", nome [20],"\t\t", nome [21],"\t\t", nome [22],"\t\t", nome [23],"\t\t", nome [24],"\t\t", nome [25],"\t\t", nome [26],"\t\t", nome [27],"\t\t", nome [28])
+		para (x=0; x<29; x++)
+		{
+			escreva(codigo[x],"\t",nome[x],"\t\t",mail[x])
+			escreva("\n")
+		}
 
 		faca 
 		{
@@ -32,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 4735; 
+ * @POSICAO-CURSOR = 3576; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
