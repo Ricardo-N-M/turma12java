@@ -21,7 +21,7 @@ public class ex_5 {
 		}
 		else if (indice>=0.5)
 		{
-			System.out.print("Todas am empresas devem paralisar as suas atividades permanentemente");
+			System.out.print("Todas as empresas devem paralisar as suas atividades permanentemente");
 		}
 		else
 		{
