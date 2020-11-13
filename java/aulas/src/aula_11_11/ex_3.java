@@ -11,8 +11,8 @@ public class ex_3 {
 
 	public static void main(String[] args) {
 		Random random = new Random();
-		final int limite1 = 4;
-		final int limite2 = 6;
+		final int limite1 = 10;
+		final int limite2 = 10;
 		int n1 [][]= new int [limite1][limite2];
 		int n2 [][]= new int [limite1][limite2];
 		int m1 [][]= new int [limite1][limite2];
