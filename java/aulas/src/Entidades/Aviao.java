@@ -6,6 +6,7 @@ public class Aviao {
 	public String peso;
 	public int quantidadeAssentos;
 	public String tipoDeMotor;
+	private int velocidade;
 	
 	public Aviao (String modelo,String peso,int quantidadeAssentos)
 	{
@@ -13,6 +14,15 @@ public class Aviao {
 		this.peso = peso;
 		this.quantidadeAssentos = quantidadeAssentos;
 	}
+	
+	public int getVelocidade() {
+		return velocidade;
+	}
+
+	public void setVelocidade(int velocidade) {
+		this.velocidade = velocidade;
+	}
+
 	public void LigaAviao()
 	{
 		System.out.println("Ligando o motor...");
