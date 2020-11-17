@@ -15,15 +15,14 @@ public class ContaPoupança {
 		char opcao;
 		int valor=0;
 		int maximo=0;
-		
-		
-		
+		char aniversario;		
 		
 		System.out.print("Digite o número da conta: ");
 		conta = leia.nextInt();
 		System.out.print("Digite o número da cpf somente com números: ");
 		CPF = leia.nextInt();	
 		
+		System.out.printf("SALDO : R$%.2f",saldo);		
 		do
 		{
 			maximo++;
@@ -39,15 +38,16 @@ public class ContaPoupança {
 			}
 			else if(opcao == 'D')
 			{
-				if (saldo<0)
+				System.out.printf("Gostaria de debitar qual valor?");
+				valor = leia.nextInt();
+				if (valor > saldo)
 				{
 					System.out.printf("Saldo insuficiente, limite de transações inalterado");
 					maximo--;
 				}
 				else 
 				{
-					System.out.printf("Gostaria de debitar qual valor?");
-					valor = leia.nextInt();
+					
 					saldo = saldo-valor;
 				System.out.printf("SALDO : R$%.2f",saldo);
 				}
@@ -55,9 +55,17 @@ public class ContaPoupança {
 			
 			
 			
-		}while (maximo<10);
+		}while (maximo<5);
+		System.out.println("Hoje é o aniversário da conta?");
+		aniversario = leia.next().toUpperCase().charAt(0);
+		if (aniversario == 'S')
+		{
+			saldo = saldo+(saldo/200);
+		}
 		System.out.printf("\nO seu saldo é de R$%.2f",saldo);
 		
 	}
 
 }
+creditoslim
+creditolimite
