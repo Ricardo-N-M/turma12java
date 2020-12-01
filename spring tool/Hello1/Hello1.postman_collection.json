@@ -1,0 +1,21 @@
+{
+	"info": {
+		"_postman_id": "979e4803-d4b4-4c79-8ed9-e41f5c4762e3",
+		"name": "Hello1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "hello 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

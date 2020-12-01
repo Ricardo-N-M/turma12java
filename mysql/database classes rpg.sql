@@ -26,6 +26,7 @@ insert into Personagens (nome, Habilidade, idClass) values
     ('Johanna Blach Sydow', 10,5),
     ('Richter "Eagle Eye" Sprangwelle',1,2),
     ('Bachtrish Charlotte Sprengel',9,4),
+    ('Maximilian Plast',9,2),
     ('Ricardo M Frankensteiner', 2,3);
     
 select * from Classes
